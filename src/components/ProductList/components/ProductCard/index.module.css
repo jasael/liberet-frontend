@@ -1,0 +1,29 @@
+.product_card {
+  background-color: #fff;
+  border-left: 1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product_card:hover {
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(128, 35, 35, 0.3);
+  transform: scale(1.02);
+}
+
+.product_card_title {
+  font-size: 2rem;
+  color: #666666;
+}
+
+.product_card_price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #c1c1c1;
+  align-self: self-end;
+}
